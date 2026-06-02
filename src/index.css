@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  /* 🌑 Background */
+  --background: #0A0A0A;
+  --surface: #1A0B2E;
+  --soft-black: #111111;
+
+  /* 🟣 Purple System */
+  --primary: #7C3AED;
+  --secondary: #A855F7;
+  --deep-purple: #2D1B4E;
+  --neon-purple: #C084FC;
+  --pink-purple: #D946EF;
+
+  /* 🟡 Gold System */
+  --gold: #B8860B;
+  --gold-bright: #D4AF37;
+  --gold-deep: #996515;
+  --gold-antique: #C28840;
+  --gold-bronze: #8C6A0A;
+
+  /* ⚪ Text */
+  --text: #FFFFFF;
+  --text-muted: #B3B3B3;
+  --text-soft: #808080;
+}
+
+#main {
+  background-color: var(--background);
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--gold-bright);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}

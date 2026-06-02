@@ -1,0 +1,11 @@
+#aboutMe {
+    background: var(--surface);
+}
+
+#aboutMe h2 {
+    color: var(--text)
+}
+
+#aboutMe p {
+    color: var(--text)
+}

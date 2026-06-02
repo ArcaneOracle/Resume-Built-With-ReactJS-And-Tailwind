@@ -1,0 +1,7 @@
+#skills {
+    background-color: var(--surface);
+}
+
+h2, h3, p, ul {
+    color: var(--text);
+}
