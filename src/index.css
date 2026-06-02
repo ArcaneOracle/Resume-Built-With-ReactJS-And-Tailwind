@@ -22,6 +22,7 @@
 
   /* ⚪ Text */
   --text: #FFFFFF;
+  --text-unmuted: #d3d3d3;
   --text-muted: #B3B3B3;
   --text-soft: #808080;
 }
@@ -41,4 +42,28 @@ a:hover {
 html, body {
   height: 100%;
   margin: 0;
+}
+
+h1, h2, h3 {
+  color: var(--text);
+}
+
+h1:hover, h2:hover, h3:hover {
+  color: var(--gold-bright);
+}
+
+p {
+  color: var(--text-unmuted);
+}
+
+p:hover {
+  color: var(--text);
+}
+
+ul, li {
+  color: var(--text-unmuted);
+}
+
+ul:hover, li:hover {
+  color: var(--text);
 }

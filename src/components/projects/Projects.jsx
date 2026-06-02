@@ -61,9 +61,9 @@ function Projects() {
   ]
 
   return (
-    <div id="projects" className="projects text-justify xl:mx-72 xl:my-16 my-8 p-12 space-y-4">
-      <h2 className="text-3xl xl:mb-16 mb-8">Projects</h2>
-      <div className="projectsCards flex flex-col xl:gap-32 gap-16">
+    <div id="projects" className="projects text-justify xl:mx-72 xl:p-12 p-6 space-y-4 transition-all ease-in-out">
+      <h2 className="text-3xl xl:mb-16 mb-8 transition-all ease-in-out">Projects</h2>
+      <div className="projectsCards flex flex-col xl:gap-32 gap-16 transition-all ease-in-out">
         {cardDetails.map(project => (
           <Card key={project.id} {...project} />
         ))}
