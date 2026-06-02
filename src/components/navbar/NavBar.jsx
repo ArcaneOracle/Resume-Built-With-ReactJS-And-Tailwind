@@ -4,7 +4,7 @@ import profileImage from '../../assets/images/profile.jpg'
 function NavBar() {
   return (
     <div id="navbar" className="navBarDiv sticky top-0 z-50 w-full h-fit bg-black/30 backdrop-blur-2xl">
-      <nav className="navBar flex items-center transition-all ease-in-out space-x-2 p-2 flex-wrap h-fit align-middle">
+      <nav className="navBar flex items-center transition-all ease-in-out gap-4 p-2 flex-wrap h-fit align-middle">
         <a href="#profileImage" className="imageDiv flex justify-center items-center transition-all ease-in-out text-center">
           <img
             id="profileImage"
