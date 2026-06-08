@@ -6,9 +6,9 @@ function Experience() {
       <h2 className="text-3xl transition-all ease-in-out">
         Experience
       </h2>
-      <p className="transition-all ease-in-out">I am currently focused on front-end web development through self-study and platforms like
-        FreeCodeCamp and W3Schools. My learning approach prioritizes understanding the underlying
-        mechanics of development.</p>
+      <p className="transition-all ease-in-out">While I haven’t held a formal role yet, I’ve gained experience
+        through personal projects and consistent coding practice. My work focuses on building structured and
+        responsive front-end interfaces.</p>
     </div>
   )
 }
